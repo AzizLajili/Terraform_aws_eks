@@ -15,3 +15,8 @@ provider "aws" {
 module "VPC" {
   source = "./modules/VPC"
 }
+
+module "web_S3" {
+  source = "./modules/web_S3"
+  
+}
